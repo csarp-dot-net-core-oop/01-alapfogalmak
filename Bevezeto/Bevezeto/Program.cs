@@ -23,11 +23,17 @@ namespace Bevezeto
             Console.WriteLine("The cat says: meow meow");
         }
     }
+    /// <summary>
+    /// O1.3 Dog (kutya) osztály
+    /// </summary>
+    class Dog
+    {
+    }
 
     class Program
     {
         static void Main(string[] args)
         {
-        }            
+        }
     }
 }
