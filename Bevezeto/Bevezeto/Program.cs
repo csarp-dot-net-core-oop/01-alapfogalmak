@@ -50,6 +50,12 @@ namespace Bevezeto
             //  - Minden objektumnak megvan a jól meghatározott feladata.
             //  - Az objektumok képesek egymással kommunikálni.
             //  - OOP programozás során a programozást közelítjük az emberi gondolkodáshoz.
+
+            // O1.06 Példányosítás
+            // Cat osztály példányosítása (create instance of class).
+            //  - A myCat objektum a Cat osztály egy példánya.
+            //  - A lokális változókat írásakor a caneCaseing jelölést használunk.
+            Cat myCat = new Cat();
         }
     }
 }
