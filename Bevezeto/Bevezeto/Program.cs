@@ -89,6 +89,20 @@ namespace Bevezeto
             myDogBenji.Say();
             Dog myDogGizmo = new Dog();
             myDogGizmo.Say();
+
+            // O1.11 3. feladat
+            //  - Példányosítsa a Pig osztályból a myPig objektumot.
+            //  - Az új myPig objektum viselkedése legyen az, hogy kétszer beszél.
+
+            //  - Példányosítsa a Cow osztályból a myPig objektumot.
+            //  - Az új myPig objektum viselkedése legyen az, hogy kétszer beszél.
+
+            // - Példányosítsa a sucklingCalf (szopós borjú : születéstől az elválasztásig (nőivarú 3, hímivarú 4 hónapos koráig)
+            //   objektumot amely egyszer beszél!
+            // - Példányosítsa a bull (bika) objektumot amely kétszer beszél!
+
+            // - Készítsen papagáj osztályt amely képes beszélni
+            // - Példányosítsa a "nemes papagáj" objektumot, amely beszél!
         }
     }
 }
