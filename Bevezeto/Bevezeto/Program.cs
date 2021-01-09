@@ -45,6 +45,11 @@ namespace Bevezeto
     {
         static void Main(string[] args)
         {
+            // O1.05 OOP programozás
+            // Az OOP programozás során a programokat objektumokból építjük fel.
+            //  - Minden objektumnak megvan a jól meghatározott feladata.
+            //  - Az objektumok képesek egymással kommunikálni.
+            //  - OOP programozás során a programozást közelítjük az emberi gondolkodáshoz.
         }
     }
 }
