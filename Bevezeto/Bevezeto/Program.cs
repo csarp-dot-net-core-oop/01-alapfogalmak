@@ -41,7 +41,22 @@ namespace Bevezeto
         }
     }
 
-    class Program
+    /// O1.09 1. feladat
+    /// Készítsen megjegyzést a Pig osztályhoz!
+    /// Készítsen megjegyzést a Say metódushoz! 
+    ///  Az osztánynál három "/"-el lehet elkészíteni. Majd beírni a  </summary> taget záróteggel.
+    ///  Ez azért van, mert már van megjegyzés az osztály előtt.
+    ///  A metódus előtt egy üres sorban csak írja be a három "/" jelet és a megjegyzés törzse elkészül, a szöveg utána beírható.
+    class Pig
+    {
+        public void Say()
+        {
+            Console.WriteLine("The pig says: wee wee.");
+        }
+    }
+
+
+        class Program
     {
         static void Main(string[] args)
         {
