@@ -55,8 +55,13 @@ namespace Bevezeto
         }
     }
 
+    /// O1.10 2. feladat
+    /// a. Készítse el a Cow osztályt!
+    /// b. Készítse el a Cow osztály esetén is a "Say" metódust.
+    /// c. Készítsen megjegyzést az osztályhoz és a metódushoz is.
 
-        class Program
+
+    class Program
     {
         static void Main(string[] args)
         {
