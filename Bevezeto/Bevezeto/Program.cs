@@ -60,6 +60,15 @@ namespace Bevezeto
             // O1.07 Példányosított objektum viselkedik (beszél)
             // A myCat objektum képes "beszélni". Az eredményt most a konzolon olvashatjuk.            
             myCat.Say();
+
+            // O1.08 Kódújrafelhasználás
+            // A Dog osztályból két példányt készítünk. 
+            // Ezt nevezzük kód újrafelhasználásnak. A kódot csak egyszer írtuk meg, az osztályban
+            // és most két példány (myDogBenji és myDogGizmo) is ugyan azt a kódot hajtja végre.
+            Dog myDogBenji = new Dog();
+            myDogBenji.Say();
+            Dog myDogGizmo = new Dog();
+            myDogGizmo.Say();
         }
     }
 }
