@@ -56,6 +56,10 @@ namespace Bevezeto
             //  - A myCat objektum a Cat osztály egy példánya.
             //  - A lokális változókat írásakor a caneCaseing jelölést használunk.
             Cat myCat = new Cat();
+
+            // O1.07 Példányosított objektum viselkedik (beszél)
+            // A myCat objektum képes "beszélni". Az eredményt most a konzolon olvashatjuk.            
+            myCat.Say();
         }
     }
 }
