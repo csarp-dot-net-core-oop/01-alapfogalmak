@@ -2,8 +2,8 @@
 ## C# OOP programozás alapfogalmak<br/>
 ## Tartalom:<br/>
 ### 1. Bevezető (osztály, metódus, példányostás, polimorfizmus, kódújrafelhasználás)<br/>
-1.1  01osztaly-metudus-peldanyositas brench<br/>
- Használható tegek:<br/>
+#### 01osztaly-metudus-peldanyositas brench<br/>
+ Használható tagek:<br/>
 *  O1.01           Cat(macska) osztály<br/>
 *  O1.02           Cat osztály metódusa<br/>
 *  O1.03           Dog (kutya) osztály<br/>
