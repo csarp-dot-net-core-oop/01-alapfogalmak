@@ -18,6 +18,9 @@ namespace PontProjekt
         /// </summary>        
         // P1.03 A pont elnevezése (karakter típus)
         private char name;
+        // P1.04 A pont két koordinátája (két egész szám)
+        private int x;
+        private int y;
     }
     class Program
     {
