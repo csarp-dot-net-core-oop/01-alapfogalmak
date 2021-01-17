@@ -33,7 +33,9 @@ namespace PontProjekt
         /// <param name="x">A pont első koordinátája</param>
         /// <param name="y">A pont második koordinátája</param>
         public Point(char name, int x, int y)
-        { 
+        {
+            // P1.06 A konstruktorban a paraméterben kapott adatokat eltároljuk.
+            //      Ezek lesznek a pont objektum kezdetei állapotai.
         }
     }
     class Program
