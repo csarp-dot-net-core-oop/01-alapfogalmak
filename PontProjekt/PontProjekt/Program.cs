@@ -21,6 +21,20 @@ namespace PontProjekt
         // P1.04 A pont két koordinátája (két egész szám)
         private int x;
         private int y;
+
+        /// <summary>
+        /// P1.05 Az osztály konstruktora
+        /// Minen objektumnak életciklusa van (megszületik (heap), él, végül "meghal").
+        /// Az objektum születésekor meg kell adni a kezdeti adatait (állapotát).
+        /// Az osztály inicializásálását végző metódust konstruktornak nevezzük.
+        /// A konstruktor neve megegyezik az osztály nevével.
+        /// </summary>
+        /// <param name="name">A pont elnevezése</param>
+        /// <param name="x">A pont első koordinátája</param>
+        /// <param name="y">A pont második koordinátája</param>
+        public Point(char name, int x, int y)
+        { 
+        }
     }
     class Program
     {
