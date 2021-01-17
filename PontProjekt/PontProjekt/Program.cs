@@ -53,6 +53,9 @@ namespace PontProjekt
             // A new operátorral hozzuk létre az osztály egy új példányát.
             // A new operátor után történik a konsturktorhívás (a kezdeti objektum állapottal).
             Point a = new Point('A', 2, -1);
+            
+            // P1.09 Egy másik pont osztály példányosítása.
+            Point b = new Point('B', -2, 3);
         }
     }
 }
