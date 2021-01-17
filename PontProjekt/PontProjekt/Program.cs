@@ -36,6 +36,12 @@ namespace PontProjekt
         {
             // P1.06 A konstruktorban a paraméterben kapott adatokat eltároljuk.
             //      Ezek lesznek a pont objektum kezdetei állapotai.
+            // P1.07 A this kulcsszó azonosítja az osztály egy konkrét példányát.
+            //      Azért van rá szükség, mert pl. a "name" változónévből kettő van.
+            //      Az egyik a paraméterben használt "name" változó, a másik "name" az osztály adattagváltozója.
+            this.name = name;
+            this.x = x;
+            this.y = y;
         }
     }
     class Program
