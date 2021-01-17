@@ -15,7 +15,9 @@ namespace PontProjekt
         /// Ne használjunk aláhúzást a változók nevében.
         /// Az adattagok esetén cameCase névkonvenciót használunk.
         /// Az adattagok nevei leíróak legyenek.
-        /// </summary>
+        /// </summary>        
+        // P1.03 A pont elnevezése (karakter típus)
+        private char name;
     }
     class Program
     {
