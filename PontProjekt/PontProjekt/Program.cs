@@ -48,6 +48,11 @@ namespace PontProjekt
     {
         static void Main(string[] args)
         {
+            // P1.08 Példányosítás (create instance)
+            // Elkészül a pont osztály egy konkrét pont példánya, egy pont objektum.
+            // A new operátorral hozzuk létre az osztály egy új példányát.
+            // A new operátor után történik a konsturktorhívás (a kezdeti objektum állapottal).
+            Point a = new Point('A', 2, -1);
         }
     }
 }
