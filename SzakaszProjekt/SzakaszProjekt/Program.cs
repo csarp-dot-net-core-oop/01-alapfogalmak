@@ -55,6 +55,9 @@ namespace SzakaszProjekt
     {
         static void Main(string[] args)
         {
+            // S3.04 Két pont példányosítása.
+            Point a = new Point('A', 0, 0);
+            Point b = new Point('B', 1, 1);
         }
     }
 }
