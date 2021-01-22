@@ -58,6 +58,11 @@ namespace SzakaszProjekt
             // S3.04 Két pont példányosítása.
             Point a = new Point('A', 0, 0);
             Point b = new Point('B', 1, 1);
+
+            // S3.05 A példányosított pontok megjelenítése a felülírt metódus segítségével.
+            Console.WriteLine(a.ToString());
+            Console.WriteLine(b);
+
         }
     }
 }
