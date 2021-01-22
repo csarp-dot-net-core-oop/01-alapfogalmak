@@ -104,6 +104,21 @@ namespace SzakaszProjekt
                 return length;
             }
         }
+
+        /// <summary>
+        /// S3.11 Szakasz felezőpont tulajdonság.
+        ///       https://tudasbazis.sulinet.hu/hu/matematika/matematika/matematika-11-osztaly/szakasz-hossza-felezopontja/szakasz-felezopontja
+        /// </summary>
+        public Point MidPoint
+        {
+            get
+            {
+                double midPointX = (startPoint.X + endPoint.X) / 2;
+                double midPointY = (startPoint.Y + endPoint.Y) / 2;
+                Point midPoint = new Point('F', midPointX, midPointY);
+                return midPoint;
+            }
+        }
     }
 
     class Program
