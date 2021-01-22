@@ -137,6 +137,10 @@ namespace SzakaszProjekt
             //       Célkitűzés: szakasz hossz, és felezőpont koordinátájának meghatározása.
             LineSegment s = new LineSegment(a, b);
 
+            // S3.12 Kiírjuk a képernyőre a szakaszt és a lekérdezhető tulajdonságait.
+            Console.WriteLine("A szakasz: " + s);
+            Console.WriteLine("Szakasz hossza: " + s.Length);
+            Console.WriteLine("Szakasz felezőpontja: " + s.MidPoint);
         }
     }
 }
