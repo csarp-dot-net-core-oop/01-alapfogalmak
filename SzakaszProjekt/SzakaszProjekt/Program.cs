@@ -77,6 +77,21 @@ namespace SzakaszProjekt
             this.startPoint = startPoint;
             this.endPoint = endPoint;
         }
+
+        /// <summary>
+        /// S3.08 Szakasz hossz tulajdonság (property).
+        /// A tulajdonság egy speciális adattag, mely segítségével a private hatókörű változók elérését szabályozhatjuk.
+        /// Olyanok mint egy public hatókörű változók, de rendekeznek get és set metódusokkal.
+        /// PascalCase konvenciót követünk tulajdonságok írásakor.
+        /// </summary>
+        public double Length
+        {
+            // S3.08 A get metóus megadja a Length tulajdonság értékét.
+            //       A hossz kiszámításához szükség van a pontok x és y koordinátájára.
+            //       https://www.mathreference.org/index/page/id/79/lg/hu
+            //       A szakasz pontjainak koordinátái egyenlőre nem érthetők el a szakasz osztályban.
+            get { return 0.0; }
+        }
     }
 
     class Program
