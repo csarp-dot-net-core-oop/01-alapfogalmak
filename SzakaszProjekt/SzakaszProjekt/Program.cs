@@ -45,8 +45,8 @@ namespace SzakaszProjekt
         /// <returns>A pont osztály adatai string adattípusaba.</returns>
         public override string ToString()
         {
-            //S3.02 Legyen üres string a visszatérési érték, így a metódusban nincs szintaktikai hiba.
-            return String.Empty;
+            /// S3.03 A ToString metódus felülírása történik a saját megjelenítési elvárásoknak megfelelően.
+            return name + "(" + x + ";" + y + ")";
         }
 
     }
