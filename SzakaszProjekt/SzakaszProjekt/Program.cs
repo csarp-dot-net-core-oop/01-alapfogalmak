@@ -119,6 +119,9 @@ namespace SzakaszProjekt
                 return midPoint;
             }
         }
+        // S3.13 Feladat.
+        //       Készítse el a LineSegment ToString metódusát amely "AB(0,0)(1,1)" alakba írja ki a szakaszt!
+        //       Készítsen dokumentációt az elkészüt osztályokról!
     }
 
     class Program
@@ -138,6 +141,8 @@ namespace SzakaszProjekt
             LineSegment s = new LineSegment(a, b);
 
             // S3.12 Kiírjuk a képernyőre a szakaszt és a lekérdezhető tulajdonságait.
+            // S3.13 Feladat
+            //       A szakasz megjelenítése nem tökéletes. Mit kellene csinálni? 
             Console.WriteLine("A szakasz: " + s);
             Console.WriteLine("Szakasz hossza: " + s.Length);
             Console.WriteLine("Szakasz felezőpontja: " + s.MidPoint);
