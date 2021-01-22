@@ -34,6 +34,10 @@ namespace SzakaszProjekt
             this.x = x;
             this.y = y;
         }
+
+        /// <summary>
+        /// S3.01 A ToString metódus az osztály adatait karakterlánccá alakító metódusa.
+        /// </summary>
     }
 
     class Program
