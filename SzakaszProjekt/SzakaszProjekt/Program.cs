@@ -22,6 +22,13 @@ namespace SzakaszProjekt
         private double y;
 
         /// <summary>
+        /// S3.09 Elkészítjük az pont x és y adattagokjaihoz kapcsolodó tulajdonságokat.
+        ///       A pont koordinátáit csak leolvasni lehet (get), módosítani nem.
+        /// </summary>
+        public double X { get => x; }
+        public double Y { get => y; }
+
+        /// <summary>
         /// Az osztály minden tulajdonságát megadó konstruktora.
         /// A konstruktornak nincs visszatérési értéke.
         /// </summary>
