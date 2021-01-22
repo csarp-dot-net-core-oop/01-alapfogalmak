@@ -37,7 +37,18 @@ namespace SzakaszProjekt
 
         /// <summary>
         /// S3.01 A ToString metódus az osztály adatait karakterlánccá alakító metódusa.
+        /// S3.02 Minden osztálynak van felülírható ToString metódusa, 
+        ///       mert minden osztály az Object osztálytól származik.
+        ///       A ToString metódus felülírása történik. 
+        ///       A kódot az ovverride szó beírásával kezdjük majd gyakorlaton.
         /// </summary>
+        /// <returns>A pont osztály adatai string adattípusaba.</returns>
+        public override string ToString()
+        {
+            //S3.02 Legyen üres string a visszatérési érték, így a metódusban nincs szintaktikai hiba.
+            return String.Empty;
+        }
+
     }
 
     class Program
