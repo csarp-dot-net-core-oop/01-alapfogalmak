@@ -91,6 +91,10 @@ namespace SzakaszProjekt
             Console.WriteLine(a.ToString());
             Console.WriteLine(b);
 
+            // S3.07 Szakaszt készítünk az a, és b pontokból.
+            //       Célkitűzés: szakasz hossz, és felezőpont koordinátájának meghatározása.
+            LineSegment s = new LineSegment(a, b);
+
         }
     }
 }
