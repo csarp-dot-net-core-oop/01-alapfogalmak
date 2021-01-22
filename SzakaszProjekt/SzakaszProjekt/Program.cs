@@ -50,6 +50,34 @@ namespace SzakaszProjekt
         }
 
     }
+ 
+    /// <summary>
+    /// S3.06 Szakasz osztály.
+    ///       Geometriai szakasz két megadott ponttal.
+    /// </summary>
+    class LineSegment
+    {
+        /// <summary>
+        /// S3.06 A szakasz kezdőpontja (adattag vagy más néven mező, angolul class member).
+        /// </summary>
+        private Point startPoint;
+        /// <summary>
+        /// S3.06 A szakasz végpontja;
+        /// </summary>
+        private Point endPoint;
+
+        /// <summary>
+        /// S3.06 A szakasz osztály konstruktora.
+        /// A konstruktornak nincs visszatérési értéke.
+        /// </summary>
+        /// <param name="startPoint"></param>
+        /// <param name="endPoint"></param>
+        public LineSegment(Point startPoint, Point endPoint)
+        {
+            this.startPoint = startPoint;
+            this.endPoint = endPoint;
+        }
+    }
 
     class Program
     {
