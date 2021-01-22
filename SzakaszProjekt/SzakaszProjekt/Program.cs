@@ -97,7 +97,12 @@ namespace SzakaszProjekt
             //       A hossz kiszámításához szükség van a pontok x és y koordinátájára.
             //       https://www.mathreference.org/index/page/id/79/lg/hu
             //       A szakasz pontjainak koordinátái egyenlőre nem érthetők el a szakasz osztályban.
-            get { return 0.0; }
+            get
+            {
+                // S3.10 A képletnek megfelelően kiszámoljuk a szakasz hosszát és ez lesz a get metódus visszatérési értéke.
+                double length = Math.Sqrt(Math.Pow(endPoint.X - startPoint.X, 2) + Math.Pow(endPoint.Y - startPoint.Y, 2));
+                return length;
+            }
         }
     }
 
