@@ -41,14 +41,18 @@ namespace Bevezeto
         }
     }
 
-    /// O1.09 1. feladat
-    /// Készítsen megjegyzést a Pig osztályhoz!
-    /// Készítsen megjegyzést a Say metódushoz! 
-    ///  Az osztánynál három "/"-el lehet elkészíteni. Majd beírni a  </summary> taget záróteggel.
-    ///  Ez azért van, mert már van megjegyzés az osztály előtt.
-    ///  A metódus előtt egy üres sorban csak írja be a három "/" jelet és a megjegyzés törzse elkészül, a szöveg utána beírható.
+    // O1.09 1. feladat
+    // Készítsen megjegyzést a Pig osztályhoz!
+    // Készítsen megjegyzést a Say metódushoz! 
+    //  Az osztánynál három "/"-el lehet elkészíteni. Majd beírni a  </summary> taget záróteggel.
+    //  Ez azért van, mert már van megjegyzés az osztály előtt.
+    //  A metódus előtt egy üres sorban csak írja be a három "/" jelet és a megjegyzés törzse elkészül, a szöveg utána beírható.
+    
+
     class Pig
     {
+        // O1.09 1. feladat
+        // Készítsen megjegyzést a Say metódushoz!
         public void Say()
         {
             Console.WriteLine("The pig says: wee wee.");
@@ -94,14 +98,10 @@ namespace Bevezeto
             //  - Példányosítsa a Pig osztályból a myPig objektumot.
             //  - Az új myPig objektum viselkedése legyen az, hogy kétszer beszél.
 
-            //  - Példányosítsa a Cow osztályból a myPig objektumot.
-            //  - Az új myPig objektum viselkedése legyen az, hogy kétszer beszél.
+            //  - Példányosítsa a Cow osztályból a myCow objektumot.
+            //  - Az új myCow objektum viselkedése legyen az, hogy kétszer beszél.
 
-            // - Példányosítsa a sucklingCalf (szopós borjú : születéstől az elválasztásig (nőivarú 3, hímivarú 4 hónapos koráig)
-            //   objektumot amely egyszer beszél!
-            // - Példányosítsa a bull (bika) objektumot amely kétszer beszél!
-
-            // - Készítsen papagáj osztályt amely képes beszélni
+            // - Készítsen papagáj osztályt amely képes beszélni.
             // - Példányosítsa a "nemes papagáj" objektumot, amely beszél!
         }
     }
