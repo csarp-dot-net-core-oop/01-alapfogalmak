@@ -12,9 +12,8 @@ Használható tagek:<br/>
 *  O1.06           Példányosítás<br/>
 *  O1.07           Példányosított objektum viselkedik (beszél)<br/>
 *  O1.08           Kódújrafelhasználás<br/>
-*  O1.09           1. feladat<br/>
-*  O1.10           2. feladat<br/>
-*  O1.11           3. feladat<br/>
+*  O1.09           Feladatok<br/>
+
 #### 02osztaly-adattag-konstruktor branch<br/>
 Használható tagek:<br/>
 *  P2.01           A pont osztály
