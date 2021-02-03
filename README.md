@@ -25,10 +25,10 @@ Használható tagek:<br/>
 *  P2.07           A this kulcsszó azonosítja az osztály egy konkrét példányát.
 *  P2.08           Példányosítás (create instance)
 *  P2.09           Egy másik pont osztály példányosítása.
-*  P2.10           Egy pont mozgatása északra
-*  P2.11           A két pont mozgatása északra. Módosulnak az objektumok állapotai.
-*  P2.12           Pont megjelenítése a képernyőn
-*  P2.13           A két pont adatainak megjelenítése  a képernyőn
+*  P2.10           Egy pont mozgatása keletre
+*  P2.11           A két pont mozgatása keletre.
+*  P2.12           Pont megjelenítése a képernyőn.
+*  P2.13           A két pont adatainak megjelenítése a képernyőn.
 *  P2.14           Feladat
 #### 03-osztalyhierarchia-tulajdonsagok branch<br/>
 Használható tagek:<br/>
