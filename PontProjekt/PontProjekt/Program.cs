@@ -82,6 +82,17 @@ namespace PontProjekt
             Console.WriteLine("A pontok az északra mozgatás után:");
             a.PrintOut();
             b.PrintOut();
+
+            // P1.14 Feladat
+            //         Fejlessze tovább a pont osztályt, hogy mind a négy égtáj felé lehessen mozgatni!
+            //         A "A" és "C" pontot mozgassa úgy, hogy fedje a "B" pontot!            
+            Point c = new Point('C', 2, 5);
+            // Írja ide a szükséges metódushívásokat.
+
+            Console.WriteLine("A pontok miután fedik a B pontot!");
+            a.PrintOut();
+            b.PrintOut();
+            c.PrintOut();
         }
     }
 }
