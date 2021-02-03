@@ -1,7 +1,7 @@
 # 01-alapfogalmak<br/>
 ## C# OOP programozás alapfogalmak<br/>
 Tartalom:<br/>
-### 1. Bevezető (osztály, metódus, példányostás, polimorfizmus, kódújrafelhasználás)<br/>
+### 1. Bevezető (osztály, metódus, példányosítás, polimorfizmus, kódújrafelhasználás)<br/>
 #### 01osztaly-metudus-peldanyositas branch<br/>
 Használható tagek:<br/>
 *  O1.01           Cat(macska) osztály<br/>
@@ -28,8 +28,8 @@ Használható tagek:<br/>
 *  P2.10           Egy pont mozgatása északra
 *  P2.11           A két pont mozgatása északra. Módosulnak az objektumok állapotai.
 *  P2.12           Pont megjelenítése a képernyőn
-*  P2.13           A két pont adatainak megjeleníétse a képernyőn
-*  P2g.14           Feladat
+*  P2.13           A két pont adatainak megjelenítése  a képernyőn
+*  P2.14           Feladat
 #### 03-osztalyhierarchia-tulajdonsagok branch<br/>
 Használható tagek:<br/>
 *  S3.01           A ToString metódus az osztály adatait karakterlánccá alakító metódusa.
@@ -40,7 +40,7 @@ Használható tagek:<br/>
 *  S3.06           Szakasz osztály.
 *  S3.07           Szakaszt készítünk az a, és b pontokból.
 *  S3.08           Szakasz hossz tulajdonság (property).
-*  S3.09           Elkészítjük az pont x és y adattagokjaihoz kapcsolodó tulajdonságokat.
+*  S3.09           Elkészítjük az pont x és y adattagjaikhoz kapcsolódó  tulajdonságokat.
 *  S3.10           A képletnek megfelelően kiszámoljuk a szakasz hosszát.
 *  S3.11           Szakasz felezőpont tulajdonság.
 *  S3.12           Kiírjuk a képernyőre a szakaszt és a lekérdezhető tulajdonságait.
