@@ -64,6 +64,11 @@ namespace PontProjekt
             
             // P1.09 Egy másik pont osztály példányosítása.
             Point b = new Point('B', -2, 3);
+
+            // P1.11 A két pont mozgatása keletre.
+            a.MoveEast();
+            b.MoveEast();
+            b.MoveEast();
         }
     }
 }
