@@ -77,6 +77,11 @@ namespace PontProjekt
             a.MoveEast();
             b.MoveEast();
             b.MoveEast();
+
+            // P1.13 A két pont adatainak megjelenítése a képernyőn.
+            Console.WriteLine("A pontok az északra mozgatás után:");
+            a.PrintOut();
+            b.PrintOut();
         }
     }
 }
