@@ -43,6 +43,14 @@ namespace PontProjekt
             this.x = x;
             this.y = y;
         }
+
+        /// <summary>
+        /// P1.10 Egy pont mozgatása keletre
+        /// </summary>
+        public void MoveEast()
+        {
+            x = x + 1;
+        }
     }
     class Program
     {
