@@ -51,6 +51,14 @@ namespace PontProjekt
         {
             x = x + 1;
         }
+
+        /// <summary>
+        /// P1.12 Pont megjelenítése a képernyőn.
+        /// </summary>
+        public void PrintOut()
+        {
+            Console.WriteLine(name + "(" + x + "," + y + ")");
+        }
     }
     class Program
     {
